@@ -22,7 +22,7 @@ export const creators: Creator[] = [
   {
     name: 'lyy010714',
     avatar: '',
-    username: 'Eric Lu',
+    username: 'lyy010714',
     title: 'Founder',
     desc: 'PhD',
     links: [
