@@ -1,7 +1,7 @@
 export interface SocialEntry {
   type: 'github'
   icon: string
-  link: 'https://github.com/lyy010714'
+  link: string
 }
 
 export interface Creator {
@@ -11,7 +11,7 @@ export interface Creator {
   title?: string
   org?: string
   desc?: string
-  links?: 'https://github.com/lyy010714'
+  links?: SocialEntry[]
   nameAliases?: string[]
   emailAliases?: string[]
 }
