@@ -1,7 +1,7 @@
 export interface SocialEntry {
   type: 'github'
   icon: string
-  link: string
+  link: 'https://github.com/lyy010714'
 }
 
 export interface Creator {
@@ -11,7 +11,7 @@ export interface Creator {
   title?: string
   org?: string
   desc?: string
-  links?: SocialEntry[]
+  links?: 'https://github.com/lyy010714'
   nameAliases?: string[]
   emailAliases?: string[]
 }
@@ -20,7 +20,7 @@ const getAvatarUrl = (name: string) => `https://github.com/${name}.png`
 
 export const creators: Creator[] = [
   {
-    name: 'lyy010714',
+    name: 'Eric Lu',
     avatar: '',
     username: 'lyy010714',
     title: 'Founder',
